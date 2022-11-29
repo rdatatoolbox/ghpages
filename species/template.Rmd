@@ -1,0 +1,20 @@
+---
+author: "Nicolas Casajus"
+date: "`r format(Sys.Date())`"
+output: html_document
+params:
+  sp_name: "Adelie"
+---
+
+---
+title: `r params$"sp_name"`
+---
+
+## `r params$"sp_name"`
+
+```{r 'plot', echo=FALSE}
+subdata <- penguins[penguins$"species" == params$"sp_name", ]
+
+plot(subdata$"bill_length_mm", subdata$"bill_depth_mm", pch = 19,
+     xlab = "Bill length (in mm)", ylab = "Bill depth (in mm)")
+```

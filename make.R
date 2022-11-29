@@ -21,9 +21,22 @@ pkgload::load_all()
 
 ## Global Variables ----
 
-# ...
+data(penguins, package = "palmerpenguins")
+
+species <- as.character(unique(penguins$"species"))
 
 
-## Run Project ----
+## Knit homepage ----
 
-# ...
+rmarkdown::render(input = "index.Rmd", params = list(sp_names = species))
+
+
+## Knit species pages ----
+
+for (i in 1:length(species)) {
+  
+  rmarkdown::render(input       = here::here("species", "template.Rmd"), 
+                    output_file = paste0(tolower(species[i]), ".html"),
+                    output_dir  = here::here("species"),
+                    params      = list(sp_name = species[i]))
+}

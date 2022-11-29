@@ -1,2 +1,5 @@
 ^LICENSE\.md$
 ^make\.R$
+\.html$
+\.Rmd$
+\.Rproj$

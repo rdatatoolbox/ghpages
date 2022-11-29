@@ -16,5 +16,9 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.2
 Imports: 
+    here,
+    knitr,
+    palmerpenguins,
     pkgload,
-    remotes
+    remotes,
+    rmarkdown
