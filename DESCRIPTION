@@ -1,0 +1,20 @@
+Package: ghpages
+Type: Package
+Title: Deploy HTML Files on GitHub Pages
+Version: 0.0.1
+Authors@R: c(
+    person(given   = "Nicolas",
+           family  = "Casajus",
+           role    = c("aut", "cre", "cph"),
+           email   = "nicolas.casajus@fondationbiodiversite.fr",
+           comment = c(ORCID = "0000-0002-5537-5294")))
+Description: Example to show how to deploy HTML files on GitHub Pages.
+URL: https://github.com/rdatatoolbox/ghpages
+BugReports: https://github.com/rdatatoolbox/ghpages/issues
+License: GPL-2
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.2
+Imports: 
+    pkgload,
+    remotes
