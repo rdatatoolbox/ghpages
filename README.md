@@ -10,7 +10,7 @@ GPL-2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://chooseal
 <!-- badges: end -->
 
 Example to show how to deploy HTML files on GitHub Pages. Do not forget
-to activates **GitHub Pages** in the repository settings as follow:
+to activate **GitHub Pages** in the repository settings as follow:
 
 ![](img/setup-pages.png)
 

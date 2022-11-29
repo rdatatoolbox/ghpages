@@ -22,7 +22,7 @@ knitr::opts_chunk$set(collapse  = TRUE,
 <!-- badges: end -->
 
 
-Example to show how to deploy HTML files on GitHub Pages. Do not forget to activates
+Example to show how to deploy HTML files on GitHub Pages. Do not forget to activate
 **GitHub Pages** in the repository settings as follow:
 
 ![](img/setup-pages.png)
