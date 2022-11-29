@@ -3,3 +3,5 @@
 \.html$
 \.Rmd$
 \.Rproj$
+^README\.Rmd$
+^README\.html$
