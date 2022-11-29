@@ -18,3 +18,7 @@ subdata <- penguins[penguins$"species" == params$"sp_name", ]
 plot(subdata$"bill_length_mm", subdata$"bill_depth_mm", pch = 19,
      xlab = "Bill length (in mm)", ylab = "Bill depth (in mm)")
 ```
+
+```{r 'home-button', echo=FALSE, results='asis'}
+cat("[**Home page**](https://rdatatoolbox.github.io/ghpages)")
+```

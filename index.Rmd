@@ -25,8 +25,8 @@ in culpa qui officia deserunt mollit anim id est laborum.
 
 ```{r 'create-links', echo=FALSE, results='asis'}
 for (i in 1:length(params$"sp_names")) {
-  cat(paste0("- [", params$"sp_names"[i], 
-             "](https://rdatatoolbox.github.io/ghpages/species/",
+  cat(paste0("- [**", params$"sp_names"[i], 
+             "**](https://rdatatoolbox.github.io/ghpages/species/",
              tolower(params$"sp_names"[i]), ".html)\n"))
 }
 ```
